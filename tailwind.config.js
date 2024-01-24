@@ -5,4 +5,12 @@ module.exports = {
       extend: {},
     },
     plugins: [],
-  }
+} 
+  
+module.exports = {
+  // other configurations
+  plugins: [
+    require('tailwindcss-filters'),
+    // other plugins
+  ],
+}
